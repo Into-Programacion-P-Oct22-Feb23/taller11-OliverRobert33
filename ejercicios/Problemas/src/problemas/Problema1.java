@@ -7,7 +7,7 @@ package problemas;
 
 /**
  *
- * @author reroes
+ * @author OLIVER SARAGURO - RUBEN CONDOY
  */
 public class Problema1 {
 

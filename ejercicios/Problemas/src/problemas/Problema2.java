@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author reroes
+ * @author OLIVER SARAGURO - RUBEN CONDOY
  */
 public class Problema2 {
 

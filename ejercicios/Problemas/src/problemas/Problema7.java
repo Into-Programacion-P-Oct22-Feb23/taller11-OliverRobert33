@@ -9,14 +9,14 @@ import java.util.Scanner;
 
 /**
  *
- * @author reroes
+ * @author OLIVER SARAGURO - RUBEN CONDOY
  */
 public class Problema7 {
 
     public static void main(String[] args) {
         String salida;
         salida = funcionElementos();
-        System.out.printf("Las ciudades del ecuador son:\n%s\n", salida);
+        System.out.printf("Las ciudades del ecuador son:\n%s\n\n", salida);
 
         procedimientoElementos();
 
@@ -53,7 +53,8 @@ public class Problema7 {
         entrada.nextLine();
         
         for (int j = 0; j < arreglo2.length; j++) {
-            System.out.println("Ingrese elementos para el Arreglo 2: ");
+            System.out.println("Ingrese elementos de tipo cadena para el "
+                    + "Arreglo 2: ");
             arreglo2[j] = entrada.nextLine();
         }
         
@@ -62,9 +63,7 @@ public class Problema7 {
                 salida = String.format("%s%s ", salida, arreglo2[j]);    
             }
         }
-        System.out.printf("Los elemenos del arreglo de 4 y 5 caracteres "
+        System.out.printf("Los elemenos del Arreglo 2; de 4 y 5 caracteres "
                         + "son: \n%s\n", salida);
-
     }
-
 }
