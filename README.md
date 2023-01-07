@@ -1,4 +1,5 @@
-# Taller 11 (Laboratorio) 
+# Taller 11 (Laboratorio)
+OLIVER SARAGURO - RUBEN CONDOY
 ## Construcción de programas usando módulos y funciones
 
 ### Problema 01
